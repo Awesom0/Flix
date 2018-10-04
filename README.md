@@ -8,10 +8,10 @@ Time spent: **10** hours spent in total
 
 The following **required** user stories are complete:
 
-- [ X] User sees app icon in home screen and styled launch screen (+1pt)
-- [ X] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [ X] User can "Pull to refresh" the movie list (+2pt)
-- [ X] User sees a loading state while waiting for the movies to load (+2pt)
+- [x] User sees app icon in home screen and styled launch screen (+1pt)
+- [x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
+- [x] User can "Pull to refresh" the movie list (+2pt)
+- [x] User sees a loading state while waiting for the movies to load (+2pt)
 
 The following **stretch** user stories are implemented:
 
@@ -35,7 +35,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/y6K0a04' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/y6K0a04.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
