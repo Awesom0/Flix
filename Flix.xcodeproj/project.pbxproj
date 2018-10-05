@@ -10,6 +10,7 @@
 		1E258E21E6CEF66475454E86 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E4B230F1C7031C2057EFD0 /* Pods_FlixTests.framework */; };
 		3D53B76B2EB802897B27ED93 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280B1D9A2478BE41902DA12B /* Pods_Flix.framework */; };
 		B28BE77BB924A63F8B9A1871 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80305AF8884B6F1ACB86114 /* Pods_FlixUITests.framework */; };
+		C74D89422166C3DF008BC204 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D89412166C3DF008BC204 /* DetailViewController.swift */; };
 		C770D7D6215C95C1004709FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770D7D5215C95C1004709FB /* AppDelegate.swift */; };
 		C770D7DB215C95C1004709FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C770D7D9215C95C1004709FB /* Main.storyboard */; };
 		C770D7DD215C95C3004709FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C770D7DC215C95C3004709FB /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		B80305AF8884B6F1ACB86114 /* Pods_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E4B230F1C7031C2057EFD0 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA1E1941A0AE9897A6B0F1D /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
+		C74D89412166C3DF008BC204 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C770D7D2215C95C1004709FB /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C770D7D5215C95C1004709FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C770D7DA215C95C1004709FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,6 +116,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C74D893F2166C352008BC204 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C770D803215C9C48004709FB /* NowPlayingViewController.swift */,
+				C74D89412166C3DF008BC204 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C74D89402166C372008BC204 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C770D805215CAB84004709FB /* MovieCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C770D7C9215C95C1004709FB = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +158,13 @@
 		C770D7D4215C95C1004709FB /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				C770D803215C9C48004709FB /* NowPlayingViewController.swift */,
+				C74D89402166C372008BC204 /* Views */,
+				C74D893F2166C352008BC204 /* ViewControllers */,
 				C770D7D5215C95C1004709FB /* AppDelegate.swift */,
 				C770D7D9215C95C1004709FB /* Main.storyboard */,
 				C770D7DC215C95C3004709FB /* Assets.xcassets */,
 				C770D7DE215C95C3004709FB /* LaunchScreen.storyboard */,
 				C770D7E1215C95C3004709FB /* Info.plist */,
-				C770D805215CAB84004709FB /* MovieCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -399,6 +418,7 @@
 				C770D804215C9C48004709FB /* NowPlayingViewController.swift in Sources */,
 				C770D7D6215C95C1004709FB /* AppDelegate.swift in Sources */,
 				C770D806215CAB84004709FB /* MovieCell.swift in Sources */,
+				C74D89422166C3DF008BC204 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
