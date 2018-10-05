@@ -71,8 +71,8 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x ] User can tap a cell to see a detail view (+5pts)
-- [x ] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
+- [x] User can tap a cell to see a detail view (+5pts)
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
 
 The following **stretch** features are implemented:
 
